@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Neucha&family=Rubik+Glitch&family=Slabo+27px&family=Titillium+Web:wght@300&display=swap');
+    /* font-family: 'Rubik Glitch', cursive; [spacial font] */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Neucha&family=PT+Sans&family=Rubik+Glitch&family=Slabo+27px&family=Titillium+Web:wght@300&display=swap');
+    /* font-family: 'PT Sans', sans-serif; [main font] */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cuprum&family=Hurricane&family=Neucha&family=PT+Sans&family=Rubik+Glitch&family=Slabo+27px&family=Titillium+Web:wght@300&display=swap');
+    /* font-family: 'Cuprum', sans-serif; [header and footer font] */
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+/* --------------------------- */
+
+    .header {
+        font-family: 'Cuprum', sans-serif;
+        background-color: whitesmoke;
+    }
+
+    .footer {
+        font-family: 'Cuprum', sans-serif;
+    }
+
+/* --------------------------- */
+
+
+.footer,
+.container,
+.container-2,
+.banner {
+    border: solid;
+}
