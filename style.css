@@ -4,6 +4,9 @@
     /* font-family: 'PT Sans', sans-serif; [main font] */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cuprum&family=Hurricane&family=Neucha&family=PT+Sans&family=Rubik+Glitch&family=Slabo+27px&family=Titillium+Web:wght@300&display=swap');
     /* font-family: 'Cuprum', sans-serif; [header and footer font] */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cuprum&family=Hurricane&family=Neucha&family=PT+Sans&family=Rubik+Glitch&family=Signika:wght@700&family=Slabo+27px&family=Titillium+Web:wght@300&display=swap');
+    /* font-family: 'Signika', sans-serif; [headings] */
+
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -60,13 +63,14 @@ body {
                         transform: scale(1.25, 1.25);
                     }
 
+
 /* --------------------------- */
 
     .banner {
         background-image: url(images/prembanner2.jpg);
         background-size: 1350px;
         background-repeat: no-repeat;
-        height: 300px;
+        height: 310px;
         clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px));
         margin-bottom: 5px;
         display: flex;
@@ -92,20 +96,132 @@ body {
 
 /* --------------------------- */
 
-        .container {
-            background-color: whitesmoke;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: auto;
-            clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
-            margin-top: -50px;      
-        }
+    .container {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+        margin-top: -50px;      
+    }
 
             .spliter {
                 height: 50px;             
             }
+
+            .service-title {
+                text-align: center;
+                font-family: 'Signika', sans-serif;
+            }
+
+            .services {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 8px;
+            }
+
+                .service {
+                    width: 300px;
+                    height: 300px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: flex-end;
+                    border-radius: 6px;
+                }
+
+                        .serviceText {
+                            width: 300px;
+                            background-color: rgba(0, 0, 0, 0.767);
+                            text-align: center;
+                            font-family: 'PT Sans', sans-serif;
+                            font-weight: bold;
+                            color: antiquewhite;
+                            padding: 20px 4px;
+                        }
+
+                    #service1 {
+                        background-image: url(images/spic1.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service2 {
+                        background-image: url(images/spic2.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service3 {
+                        background-image: url(images/spic3.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service4 {
+                        background-image: url(images/spic4.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service5 {
+                        background-image: url(images/spic5.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service6 {
+                        background-image: url(images/spic6.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service7 {
+                        background-image: url(images/spic7.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service8 {
+                        background-image: url(images/spic8.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service9 {
+                        background-image: url(images/spic9.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service10 {
+                        background-image: url(images/spic10.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service11 {
+                        background-image: url(images/spic11.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+                    #service12 {
+                        background-image: url(images/spic12.jpg);
+                        background-repeat: no-repeat;
+                        background-size: 300px 300px;
+                    }
+
+/* --------------------------- */
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    
+}
 
 /* --------------------------- */
          
@@ -119,5 +235,16 @@ body {
 
 .footer,
 .container-2 {
+    border-color: #fff;
+    background-color: aquamarine;
+}
+
+.service {
+    /* border: solid; */
+}
+
+.left-container,
+.right-container {
     border: solid;
+    width: 100%;
 }
