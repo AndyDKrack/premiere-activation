@@ -20,7 +20,34 @@ body {
     width: 100%;
     /* gap: 5px; */
 }
+
+.main {
+}
 /* --------------------------- */
+#topBtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#topBtn:hover {
+    background-color: royalblue;
+    color: black;
+    font-weight: bold;
+}
+/* --------------------------- */
+
 
     .header {
         font-family: 'Cuprum', sans-serif;
@@ -41,10 +68,10 @@ body {
             
             .navi {
                 display: flex;
-                flex-direction: row;
-                justify-content: center;
+                flex-direction: column;
+                align-items: flex-end;
                 flex-wrap: wrap;
-                gap: 12px;   
+                gap: 8px;   
             }
 
                 .navi a {
@@ -52,11 +79,15 @@ body {
                     color: royalblue;
                 }
 
+                    .navi-link {
+                        margin: 0px 8px;
+                    }
+
                     .navi a:link {
                         font-size: 20px;
                         color: royalblue;
                         background-color: rgb(231, 229, 229);
-                        padding: 5px;
+                        padding: 2px;
                         border-radius: 5px;
                         transition: background-color .3s;
                     }
@@ -66,6 +97,7 @@ body {
                         transform: scale(1.25, 1.25);
                     }
 
+         
 
 /* --------------------------- */
 
@@ -372,7 +404,7 @@ body {
                     gap: 20px;
                 }
 
-                    .contact {
+                    .contact-button {
                         padding: 0px 16px;
                         text-align: start;
                         font-family: 'Titillium Web', sans-serif;
@@ -389,20 +421,34 @@ body {
                             font-weight: bold;
                         }
 
-                        .contact {
-                            background-color: #ddd;
+                        .contact-content {
+                            background-color: rgba(187, 183, 183, 0.616);
+                            border-radius: 5px;
+                        }
+
+                                .contact-content:hover {
+                                    background-color: #3e8e41;
+                                    color: white;
+                                    transition: 0.7s;
+                                    }
+
+                        .contact-button {
                             border: none;
-                            color: black;
                             padding: 16px 32px;
                             text-align: center;
                             margin: 4px 2px;
-                            transition: 0.7s;
                           }
-                          
-                          .contact:hover {
-                            background-color: #3e8e41;
-                            color: white;
-                          }
+
+                                #work-with-us {
+                                    background-image: url(images/work-with-us.jpg);
+                                    
+                                    border-radius: 5px;
+                                }
+
+                                #hire-us {
+                                    background-image: url(images/hire-us.jpg);
+                                    border-radius: 5px;
+                                }
 
 /* --------------------------- */
             
@@ -413,9 +459,36 @@ body {
     flex-wrap: wrap;
     font-family: 'Cuprum', sans-serif;
     padding: 16px;
-    background-color: gray;
+    background-color: rgb(216, 213, 213);
     width: 100%;
 }
+
+    .prem-foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .footer-icon {
+        width: 40px;
+    }
+
+        .dk {
+            text-decoration: none;
+            padding: 8px;
+            border-radius: 8px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .dk:hover {
+            background-color: rgb(235, 123, 32);
+            -webkit-transform: scale(1.25, 1.25);
+            transform: scale(1.25, 1.25);
+            transition: background-color 0.5s;
+        }
 
 /* --------------------------- */
 
@@ -426,26 +499,3 @@ body {
 }
 
 /* --------------------------- */
-
-.dk {
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 8px;
-    color: black;
-    font-weight: bold;
-}
-
-.dk:hover {
-    background-color: rgb(235, 123, 32);
-    -webkit-transform: scale(1.25, 1.25);
-    transform: scale(1.25, 1.25);
-    transition: background-color 0.5s;
-}
-
-.dk a:link {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(231, 229, 229, 0);
-    padding: 5px;
-    border-radius: 5px;
-    transition: background-color .3s;

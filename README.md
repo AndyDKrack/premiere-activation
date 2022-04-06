@@ -49,4 +49,6 @@ Icons
 
   Icons [work-with-us]: url <a href="https://www.flaticon.com/free-icons/work" title="work animated icons">Work animated icons created by Freepik - Flaticon</a>
 
-  Icon [hire-us]: url "title"
+  img [hire-us]: url Photo by Tima Miroshnichenko: https://www.pexels.com/photo/man-gets-the-job-5439381/
+
+  img [work-with-us]: url Photo by Mikhail Nilov: https://www.pexels.com/photo/a-group-of-people-working-as-a-team-9301252/
