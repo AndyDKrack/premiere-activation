@@ -32,3 +32,21 @@ Icons
   Icon [instore-demo]: url <a href="https://www.flaticon.com/free-icons/shop" title="shop icons">Shop icons created by Flat Icons - Flaticon</a>
 
   Icon [team-building]: url <a href="https://www.flaticon.com/free-icons/team" title="team icons">Team icons created by Flat Icons - Flaticon</a>
+
+  Icon [phone]: url <a href="https://www.flaticon.com/free-animated-icons/phone" title="phone animated icons">Phone animated icons created by Freepik - Flaticon</a>
+
+  Icon [email]: url <a href="https://www.flaticon.com/free-animated-icons/email" title="email animated icons">Email animated icons created by Freepik - Flaticon</a>
+
+  Icon [facebook]: url <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Pixel perfect - Flaticon</a>
+
+  Icon [twitter]: url <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Md Tanvirul Haque - Flaticon</a>
+
+  Icon [instagram]: url <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a>
+
+  Icon [whatsapp]: url <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by riajulislam - Flaticon</a>
+
+  Icon [linkedin]: url <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+
+  Icons [work-with-us]: url <a href="https://www.flaticon.com/free-icons/work" title="work animated icons">Work animated icons created by Freepik - Flaticon</a>
+
+  Icon [hire-us]: url "title"
