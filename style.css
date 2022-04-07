@@ -432,7 +432,7 @@ body {
                                 .contact-content:hover {
                                     background-color: #3e8e41;
                                     color: white;
-                                    transition: 0.2s;
+                                    transition: 0.1s;
                                     }
 
                         .contact-button {
@@ -458,12 +458,11 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     font-family: 'Cuprum', sans-serif;
-    padding: 16px;
+    padding: 16px 96px;
     background-color: rgb(216, 213, 213);
-    width: 100%;
 }
 
     .prem-foot {

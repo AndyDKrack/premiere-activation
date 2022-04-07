@@ -16,14 +16,8 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: rgb(36, 34, 34);
-    width: 100%;
-    /* gap: 5px; */
+    background-color: rgb(0, 0, 0);
 }
-
-/* .main {
-} */
-
 /* --------------------------- */
 #topBtn {
     /* display: none; */
@@ -100,11 +94,14 @@ body {
                 }
 
 /* --------------------------- */
-
-
-
-
-
+.about-us-banner{
+    background-image: url(../images/about-banner.jpg);
+    opacity: 0.7;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
 
 
 /* --------------------------- */
@@ -145,6 +142,7 @@ body {
                 #addressText {
                     font-family: 'Cuprum', sans-serif;
                     font-size: 20px;
+                    padding: 0;
                 }
 
                     .addIcon {
@@ -208,7 +206,7 @@ body {
                             .contact-content:hover {
                                 background-color: #3e8e41;
                                 color: white;
-                                transition: 0.2s;
+                                transition: 0.1s;
                                 }
 
                     .contact-button {
@@ -219,13 +217,13 @@ body {
                       }
 
                             #work-with-us {
-                                background-image: url(images/work-with-us.jpg);
+                                background-image: url(../images/work-with-us.jpg);
                                 
                                 border-radius: 5px;
                             }
 
                             #hire-us {
-                                background-image: url(images/hire-us.jpg);
+                                background-image: url(../images/hire-us.jpg);
                                 border-radius: 5px;
                             }
 
@@ -234,12 +232,11 @@ body {
 .footer {
 display: flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: space-between;
 flex-wrap: wrap;
 font-family: 'Cuprum', sans-serif;
-padding: 16px;
+padding: 16px 96px;
 background-color: rgb(216, 213, 213);
-width: 100%;
 }
 
 .prem-foot {
