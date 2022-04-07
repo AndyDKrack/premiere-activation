@@ -11,6 +11,8 @@ Acknowledgments
 Icons
   Icon [roadshow]: url <a href="https://www.flaticon.com/free-icons/roadshow" title="roadshow icons">Roadshow icons created by Freepik - Flaticon</a>
 
+  Icon [live-streaming]: url <a href="https://www.flaticon.com/free-icons/live-news" title="live news icons">Live news icons created by Freepik - Flaticon</a>
+
   Icon [outdoor_cinema]: url <a href="https://www.flaticon.com/free-icons/drive-in" title="drive in icons">Drive in icons created by Freepik - Flaticon</a>
 
   Icon [shopping-center]: url <a href="https://www.flaticon.com/free-icons/shopping-mall" title="shopping mall icons">Shopping mall icons created by surang - Flaticon</a>
