@@ -1,6 +1,8 @@
 # premiere-activation
 Premiere Activation Ltd Website - Zambia
 
+repo github site -  https://andydkrack.github.io/premiere-activation/
+
 Acknowledgments
   services pictures
   spic1.jpg - Creator: SDI Productions
