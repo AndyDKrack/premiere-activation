@@ -4,10 +4,18 @@ Premiere Activation Ltd Website - Zambia
 repo github site -  https://andydkrack.github.io/premiere-activation/
 
 Acknowledgments
+
+Images
   services pictures
   spic1.jpg - Creator: SDI Productions
 
   spic2.jpg - Photo by Andrea Piacquadio: https://www.pexels.com/photo/delighted-black-female-barista-serving-coffee-in-cup-in-cafe-3796810/
+
+  img [hire-us]: url Photo by Tima Miroshnichenko: https://www.pexels.com/photo/man-gets-the-job-5439381/
+
+  img [work-with-us]: url Photo by Mikhail Nilov: https://www.pexels.com/photo/a-group-of-people-working-as-a-team-9301252/
+
+  img [about page banner]: url Photo by <a href="https://unsplash.com/@stackia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stackie Jia</a> on <a href="https://unsplash.com/s/photos/stage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 
 Icons
@@ -47,14 +55,14 @@ Icons
 
   Icon [instagram]: url <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a>
 
-  Icon [whatsapp]: url <a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by riajulislam - Flaticon</a>
+  Icon [whatsapp]: url <a href="https://www.flaticon.com/free-icons/whatsapp" titl  img [about page banner]: url Photo by <a href="https://unsplash.com/@stackia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stackie Jia</a> on <a href="https://unsplash.com/s/photos/stage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>e="whatsapp icons">Whatsapp icons created by riajulislam - Flaticon</a>
 
   Icon [linkedin]: url <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
 
   Icons [work-with-us]: url <a href="https://www.flaticon.com/free-icons/work" title="work animated icons">Work animated icons created by Freepik - Flaticon</a>
 
-  img [hire-us]: url Photo by Tima Miroshnichenko: https://www.pexels.com/photo/man-gets-the-job-5439381/
+  Icons [right-arrow]: url <a href="https://www.flaticon.com/free-icons/next" title="next animated icons">Next animated icons created by Freepik - Flaticon</a>
 
-  img [work-with-us]: url Photo by Mikhail Nilov: https://www.pexels.com/photo/a-group-of-people-working-as-a-team-9301252/
 
+Code
   About page text effect - [Smarterss Chan] https://codepen.io/smarterss-chan

@@ -8,7 +8,8 @@
     /* font-family: 'Signika', sans-serif; [headings] */
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cuprum&family=Hurricane&family=Neucha&family=PT+Sans&family=Rubik+Glitch&family=Signika:wght@700&family=Slabo+27px&family=Titillium+Web:wght@300&display=swap');
     /* font-family: 'Titillium Web', sans-serif; [contact-buttons */
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap');
+    /* font-family: 'Source Serif Pro', serif; */
 
 body {
     font-family: 'PT Sans', sans-serif;
@@ -94,17 +95,7 @@ body {
                 }
 
 /* --------------------------- */
-.about-us-banner{
-    background-image: url(../images/about-banner.jpg);
-    opacity: 0.7;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    height: 350px;
-}
 
-
-/* --------------------------- */
 .container-4 {
     background-color: white;
     display: flex;
@@ -275,3 +266,112 @@ color: rgb(231, 231, 231);
 }
 
 /* --------------------------- */
+
+.about-us-banner{
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.prem-about-us {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+        .head-prem-about {
+            font-family: 'Source Serif Pro', serif;
+        }
+
+.prem-about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prem-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.premAbout-banner {
+    border-radius: 3px;
+    width: 100%;
+    box-shadow: 0 20px 20px -6px #777;
+    -webkit-box-shadow: 0 20px 20px -6px #777;
+    -moz-box-shadow: 0 20px 20px -6px #777;
+    transition: .3s;
+}
+    .premAbout-banner:hover {
+        transition: .3s;
+        box-shadow: 0 15px 30px #000;
+        }
+
+.prem-about-right{
+    max-width: 550px;
+    font-size: 18px;
+}
+
+.prem-about-left,
+.prem-about-right {
+    /* border: solid; */
+    padding: 8px;
+}
+
+big {
+    font-weight: bold;
+}
+
+.man-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+
+.man-team-1, 
+.group-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: normal;
+    box-shadow: 0 20px 20px -6px #777;
+    -webkit-box-shadow: 0 20px 20px -6px #777;
+    -moz-box-shadow: 0 20px 20px -6px #777;
+    transition: .3s;
+}
+    .man-team-1:hover,
+    .group-team:hover{
+        transition: .3s;
+        box-shadow: 0 15px 30px #000;
+    }
+
+        .man-team-pic {
+            width: 100%;
+        }
+
+.group-team {
+    margin-bottom: 32px;
+}
+
+        .group-team-pic {
+            width: 100%;
+        }
+
+.team-text {
+    text-align: center;
+}
+
+.team {
+    width: 75%;
+}
+/* ------------------ */
