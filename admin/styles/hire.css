@@ -4,85 +4,89 @@ body {
     margin: 0px;
     padding: 0px;
 }
+/* top button */
+ #topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px 0px;
+    border-radius: 4px;
+    width: 50px;
+}
 
+#topBtn:hover {
+    background-color: rgb(46, 148, 46);
+    color: black;
+    font-weight: bold;
+}
 
 /* --Form start---------- */
 
-body{  
-    font-family: Calibri, Helvetica, sans-serif;  
-    /* background-color: pink;   */
-}  
 
-    .form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .form-container {  
 padding: 50px;  
-background-color: lightblue; 
+background-color: rgb(92, 121, 209); 
 }  
 
 input[type=text], textarea {  
     width: 100%;  
-    /* padding: 15px;   */
     margin: 5px 0 22px 0;  
-    /* display: inline-block;   */
     border: none;  
-    background: #f1f1f1;  
+    background: #f1f1f1; 
+    padding: 10px; 
 }  
 
 input[type=text]:focus {  
-    background-color: orange;  
+    background-color: lightskyblue;  
     outline: none;  
 }  
 
-/* div {  
-    padding: 10px 0;  
-} */
 
 hr {  
     border: 1px solid #f1f1f1;  
     margin-bottom: 25px;  
 }  
 
-.submit-form {  
-    background-color: #4CAF50;  
-    color: white;  
-    /* padding: 16px 20px;   */
-    margin: 8px 0;  
-    border: none;  
-    cursor: pointer;  
-    /* width: 100%;   */
-    opacity: 0.9;  
-  }  
-  
-        .submit-form {
-            padding: 6px;
-            color: black;
-            border-radius: 8px;
-        }    
+    .submit-form {  
+        background-color: #4CAF50;  
+        color: white;  
+        margin: 8px 0;  
+        border: none;  
+        cursor: pointer;  
+        opacity: 0.9; 
+        padding: 6px;
+        color: black;
+        border-radius: 8px; 
+    }  
 
-        .submit-form:hover {  
-            opacity: 1; 
-            background-color: royalblue;
-            -webkit-transform: scale(1.25, 1.25);
-            transform: scale(1.25, 1.25);
-            transition: background-color 0.1s; 
-            padding: 8px;
-        }
+    .submit-form:hover {  
+        opacity: 1; 
+        background-color: royalblue;
+        -webkit-transform: scale(1.25, 1.25);
+        transform: scale(1.25, 1.25);
+        transition: background-color 0.1s; 
+        padding: 8px;
+    }
 
 .phone {
     display: flex;
     flex-direction: row;
 }
-
-    .country-code {
-        max-width: 20px;
-        margin-right: 5px;
-    }
 
 .duration {
     display: flex;

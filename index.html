@@ -9,28 +9,39 @@
     <title>Première Activations</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/navibar.css">
+
         <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
         <link rel="manifest" href="images/icons/site.webmanifest">
 </head>
-<!------------------------------------------------------------------->
-<body>
-    <header class="header" id="naviBar">
-        <div class="logo"><a href="index.html"><img class="prem-logo" src="images/premlogo.png" alt="Première Activations' logo"></a></div>
-        <div class="navi" id="navi">
-                <a class="navi-link" href="#services">Services</a>
-                <a class="navi-link" href="#clients">Clients</a>
-                <a class="navi-link" href="#contactUs">Contact Us</a>
-                <a class="navi-link" href="about_us.html">About Us</a>
-                <a class="navi-link" href="" target="_blank" >Careers</a>
-                <a class="navi-link" href="" target="_blank" >Hire Us</a>
-                <a class="navi-link" href="" target="_blank" >Work With US</a>
-                <a href="admin/logIn_signUp.html">
-                    <button class="login" id="login" type="button" title="Login / Signup">LogIn</button>
-                </a> 
+
+<header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">
+            <img class="prem-logo" src="images/premlogo.png" alt="Première Activations' logo"></a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clients">Clients</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactUs">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="" target="_blank" >Careers</a></li>
+            <li class="nav-item"><a class="nav-link" href="admin/hire_us.html" target="_blank" >Hire</a></li>
+            <li class="nav-item"><a class="nav-link" href="" target="_blank" >Cooperate</a></li>
+            <li class="nav-item"><a href="admin/logIn_signUp.html">
+                <button class="login" id="login" type="button" title="Login / Signup">LogIn</button>
+            </a> </li>
+        </ul>
+        <div class="hamburger">
+            <button class="menu-button">Menu</button>
         </div>
-    </header>
+    </nav>
+    <script src="scripts/navibar.js"></script>
+</header>
+<!------------------------------------------------------------------->
+
+<body>
 
 <div class="main">
 <!------------------------------------------------------------------->

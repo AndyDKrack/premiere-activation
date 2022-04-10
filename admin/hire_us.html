@@ -9,11 +9,34 @@
     <title>Hire Us</title>
 
         <link rel="stylesheet" href="styles/hire.css">
+        <link rel="stylesheet" href="../styles/navibar.css">
+        <!-- <link rel="stylesheet" href="../styles/navibar.css"> -->
         <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
         <link rel="manifest" href="images/icons/site.webmanifest">
 </head>
+<!------------------------------------------------------------------->
+<header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">
+            <img class="prem-logo" src="../images/premlogo.png" alt="Première Activations' logo"></a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="../index.html#clients" class="nav-link">Clients</a></li>
+            <li class="nav-item"><a href="../about_us.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="../index.html#contactUs" class="nav-link">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+            <button class="menu-button">Menu</button>
+        </div>
+    </nav>
+    <script src="../scripts/navibar.js"></script>
+</header>
+
+<!------------------------------------------------------------------->
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+<script src="../scripts/scroll_button.js"></script>
 
 <!------------------------------------------------------------------->
 <body>
@@ -23,8 +46,6 @@
             <hr>  
                 <label> Firstname </label>   
                     <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
-                <!-- <label> Middlename: </label>   
-                    <input type="text" name="middlename" placeholder="Middlename" size="15" required />    -->
                 <label> Lastname: </label>    
                     <input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
             
@@ -87,7 +108,7 @@
 
             <label> Phone :</label>
                 <div class="phone">
-                    <input class="contry-code" type="text" name="country code" placeholder="Country Code"  value="+260" size="4"/>   
+                    <input style="width: 40px" type="text" name="country code" placeholder="Country Code"  value="+260" size="4"/>   
                     <input type="text" name="phone" placeholder="phone no." size="10"/ required> 
                 </div> 
 
