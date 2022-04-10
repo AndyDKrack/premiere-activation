@@ -19,7 +19,7 @@
 <!------------------------------------------------------------------->
 <header class="header">
     <nav class="navbar">
-        <a href="#" class="nav-logo">
+        <a href="../index.html" class="nav-logo">
             <img class="prem-logo" src="../images/premlogo.png" alt="Première Activations' logo"></a>
         <ul class="nav-menu">
             <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
@@ -40,6 +40,14 @@
 
 <!------------------------------------------------------------------->
 <body>
+
+<div class="note">
+    <center><p> Fill the form below for the hire of our services and (or) our equipment. <br>
+    Please fill in all the spaces provided, submit and we will get in-touch with you ASAP. <br>
+    (<em>Other requirements might be put in place after we get into an agreement.</em>)
+    <br>
+    <strong>Note: This form is not an agreement form.</strong></p></center>
+</div>
     <form class="form">  
         <div class="form-container">  
             <center>  <h1> Client Form </h1> </center>  
@@ -50,7 +58,7 @@
                     <input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
             
             <div>  
-                <label> Gender :</label><br>  
+                <label> Title :</label><br>  
                     <input type="radio" value="Mr." name="title" checked > Mr.   
                     <input type="radio" value="Mrs." name="title"> Mrs.   
                     <input type="radio" value="Dr." name="title"> Dr.  
@@ -60,11 +68,13 @@
             </div> 
             <hr>
 
-            <label> Company Details (Fill this section if you represent an organization)</label>
+            <label> Company Details (<em>Fill this section if you represent an organization</em>)</label>
             <br><br>
 
-            <label>Are you representing an organization?</label>
-            <br><br><br>
+            <label for="yes no radio" >Are you representing an organization?</label> <br>
+                <input type="radio" name="yes no" checked>Yes</input>
+                <input type="radio" name="yes no">No</input>
+            <br><br>
 
             <div>
                 <label> Company Name </label>   
@@ -86,7 +96,7 @@
             <br>
             <br>
             
-            <label> Service Duration </label>
+            <label> Service Duration </admin/hire_us.htmllabel>
             <br><br>
 
             <div class="duration">
@@ -122,15 +132,6 @@
     </form>  
 
 </body>
-<!------------------------------------------------------------------->
-
-<!-- <footer class="footer">
-    <div class="prem-foot">
-        <div><img class="footer-icon" src="images/icons/premicon-l.png" alt="Première Activations Limited Logo">&#174&#8482</div>
-        <div style="font-size: 14px; padding: 0px;" > Première Activations Limited&copy 2022 </div>
-    </div>
-    <div style="font-size: 12px; padding: 12px;" > <a class="dk" href="https://github.com/AndyDKrack" target="_blank"> Designed by KAI Enterprise&copy 2022</a> </div>
-</footer> -->
 <!------------------------------------------------------------------->
 
 </html>
