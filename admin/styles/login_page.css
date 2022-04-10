@@ -1,0 +1,51 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* ------------------- */
+
+
+
+
+/* ------------------- */
+.footer {
+    background-color: rgb(177, 174, 174);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+    .prem-foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 32px;
+    }
+
+        .footer-icon {
+            width: 30px;
+        }
+
+        .dk {
+            text-decoration: none;
+            padding: 4px;
+            border-radius: 8px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .dk:hover {
+            background-color: rgb(235, 123, 32);
+            -webkit-transform: scale(1.25, 1.25);
+            transform: scale(1.25, 1.25);
+            transition: background-color 0.1s;
+        }
