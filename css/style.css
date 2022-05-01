@@ -7574,6 +7574,12 @@ button.bg-dark:focus {
   padding-left: 1rem !important;
 }
 
+    .px-31 {
+      display: flex;
+      justify-content: center;
+    }
+
+
 .p-4 {
   padding: 1.5rem !important;
 }
@@ -9284,6 +9290,11 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+      .text-white1 {
+        color: #000;
+        text-align: center;
+        align-items: center;
+      }
       .text-primary {
         color: rgb(13, 20, 43) !important;
       }
@@ -9682,6 +9693,7 @@ h6 {
   font-size: 22px;
   transition: .3s;
 }
+
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
