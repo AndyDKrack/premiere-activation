@@ -1,13 +1,12 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-
-/******* Bootstrap Theming ********/
+/******* Bootstrap ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
+ * Copyright 2011-2020 The Bootstrap Authors * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -2666,8 +2665,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #DFB163;
-  border-color: #DFB163;
+  color: #392c16;
+  font-weight: bold;
+  border-color: #2b2211;
 }
 
 .btn-outline-primary:hover {
@@ -9757,3 +9757,107 @@ h6 {
       width: 70px !important;
       height: 70px !important;
     }
+
+/* testimonial */
+
+figure.snip1167 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1167 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1167 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+figure.snip1167 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 65px 50px 30px 50px;
+  /* font-size: 0.8em; */
+  font-weight: 500;
+  margin: -50px 0 0;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1167 blockquote:before,
+figure.snip1167 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1167 blockquote:before {
+  top: 70px;
+  left: 20px;
+}
+figure.snip1167 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1167 .author {
+  padding: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+figure.snip1167 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1167 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+/* Demo purposes only */
+body {
+  /* background-color: #212121; */
+}
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+.testimonial {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+.auth-text {
+  color: wheat;
+}
+
+.testimonial-pad {
+  padding: 20px 0px;
+}

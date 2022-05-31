@@ -63,6 +63,6 @@ Icons
 
   Icons [right-arrow]: url <a href="https://www.flaticon.com/free-icons/next" title="next animated icons">Next animated icons created by Freepik - Flaticon</a>
 
+  Icon [about2] url <a href="https://www.flaticon.com/free-icons/brand-lift" title="brand lift icons">Brand lift icons created by Flat Icons - Flaticon</a>
 
-Code
-  About page text effect - [Smarterss Chan] https://codepen.io/smarterss-chan
+
